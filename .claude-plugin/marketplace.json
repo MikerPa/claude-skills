@@ -1,0 +1,28 @@
+{
+  "name": "mikerpa-skills",
+  "owner": {
+    "name": "MikerPa",
+    "url": "https://github.com/MikerPa"
+  },
+  "description": "个人 Claude Code skill 集合，支持按需安装单个 skill",
+  "plugins": [
+    {
+      "name": "code-design",
+      "source": "./code-design",
+      "description": "职责纯粹的 Java 后端类设计：单一职责（SRP）判断框架、贫血/充血分层、设计模式选型、存量代码对齐纪律",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "daily-translate",
+      "source": "./daily-translate",
+      "description": "中英互译自动入库：翻译单词/日常用语并简短讲解，按词根学习法归类写入本地英语学习知识库",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}
